@@ -113,3 +113,78 @@
 // function maps(x){
 //     return x.map(n => n * 2);
 //     }
+
+
+
+// // Invert values
+
+// function invert(array) {
+//     let newAry = [];
+//     for (let i = 0; i < array.length; i++) {
+//       if ( array[i] === 0) {
+//         newAry.push(array[i]);
+//       } else {
+//         newAry.push(array[i] * -1)
+//       }
+//     }
+//     return newAry;
+//   }
+
+// //Square(n) Sum
+// function squareSum(numbers){
+//     var result = 0;
+//     for (var i = 0; i < numbers.length; i++) {
+//       result += (numbers[i] * numbers[i]);
+//     }
+//     return result;
+//   }
+
+
+// // You Can't Code Under Pressure #1
+
+// function doubleInteger(i) {
+//     let sum = i+i
+//       return sum;
+//     }
+
+
+//Count By X
+// function countBy(x, n) {
+//     let z = [];
+//     for (let i = 1; i <= n; i++) {
+//       z.push(x * i);
+//     }
+//     return z;
+//   }
+
+//Convert a Boolean to a String
+// function booleanToString(b){
+//     let r = b.toString();
+//     return r;
+//   }
+
+
+
+// Find the smallest integer in the array
+
+// class SmallestIntegerFinder {
+//     findSmallestInt(args) {
+//       const result = Math.min(...args);
+//       return result
+//     }
+//   }
+
+
+// //Rock Paper Scissors!
+// const rps = (p1, p2) => {
+//     if (p1 == p2) return 'Draw!';
+    
+//     if (p1 == 'scissors' && p2 == 'paper') return "Player 1 won!"
+//     if (p1 == 'scissors' && p2 == 'rock') return "Player 2 won!"
+    
+//     if (p1 == 'rock' && p2 == 'paper') return "Player 2 won!"
+//     if (p1 == 'rock' && p2 == 'scissors') return "Player 1 won!"
+    
+//     if (p1 == 'paper' && p2 == 'rock') return "Player 1 won!"
+//     if (p1 == 'paper' && p2 == 'scissors') return "Player 2 won!"
+//   };
