@@ -188,3 +188,49 @@
 //     if (p1 == 'paper' && p2 == 'rock') return "Player 1 won!"
 //     if (p1 == 'paper' && p2 == 'scissors') return "Player 2 won!"
 //   };
+
+
+//Fake Binary
+
+// function fakeBin(x){
+//     let  dmb ='';
+//       for(let i = 0; i <x.length; i++){
+//         if (x[i] < '5'){
+//           dmb += '0';
+//         } else dmb += 1;
+//       }
+//       return dmb
+//     }
+
+
+
+//Century From Year
+
+// function century(year) {
+//     let result = 0;
+//     for (let i = 0; i < year; i++) {
+//       if (i % 100 === 0) {
+//         result++;
+//       }
+//     }
+//     return result;
+//   }
+
+
+
+
+// function areYouPlayingBanjo(name) {
+//     //   while()
+//       if (name[0] === 'r' || name[0] === 'R') {
+//         return name + " plays banjo";
+//       } else return name + " does not play banjo"
+//       return name;
+//     }
+
+//     console.log(areYouPlayingBanjo('Rino'));
+
+
+// //Sum of odd numbers
+// function rowSumOddNumbers(n) {
+//     return n*n*n;
+//     }
