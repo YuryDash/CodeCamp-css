@@ -234,3 +234,66 @@
 // function rowSumOddNumbers(n) {
 //     return n*n*n;
 //     }
+
+// //Use Arrow Functions to Write Concise Anonymous Functions
+// const magic = () => new Date();
+
+// // Write Arrow Functions with Parameters
+// const myConcat = (arr1, arr2) => arr1.concat(arr2);
+
+// console.log(myConcat([1, 2], [3, 4, 5]));
+
+// //Use the Rest Parameter with Function Parameters
+// const sum = (...args) => args.reduce((a, b) => a + b, 0);
+
+// //Use the Spread Operator to Evaluate Arrays In-Place
+// const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+// let arr2;
+
+// arr2 = [...arr1];  
+
+// console.log(arr2);
+
+
+//Use Destructuring Assignment to Extract Values from Objects
+
+// const HIGH_TEMPERATURES = {
+//     yesterday: 75,
+//     today: 77,
+//     tomorrow: 80
+//   };
+//   const {today, tomorrow} = HIGH_TEMPERATURES
+
+
+//Use Destructuring Assignment to Assign Variables from Objects
+// const HIGH_TEMPERATURES = {
+//     yesterday: 75,
+//     today: 77,
+//     tomorrow: 80
+//   };  
+//   const {today: highToday, tomorrow: highTomorrow} = HIGH_TEMPERATURES;
+
+//Use Destructuring Assignment to Assign Variables from Nested Objects
+// const LOCAL_FORECAST = {
+//     yesterday: { low: 61, high: 75 },
+//     today: { low: 64, high: 77 },
+//     tomorrow: { low: 68, high: 80 }
+//   };  
+//   let {today: {low: lowToday, high: highToday}} = LOCAL_FORECAST;
+//   let {tomorrow:{low:lowTomorrow,high:highTomorrow}} = LOCAL_FORECAST;
+  
+// //Use Destructuring Assignment to Assign Variables from Arrays
+// let a = 8, b = 6;
+// [a, b] = [b, a];
+
+
+
+
+
+
+
+
+
+
+
+
