@@ -313,8 +313,18 @@
 //   const half = ({ max, min }) => (max + min) / 2.0;
   
 
+//stachuk.com
 
+// const a = 5;
 
+// function myFn() {
+//     function innerFn() {
+//         console.log(a)
+//     }
+//     innerFn()
+// }
+
+// myFn()
 
 
 
