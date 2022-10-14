@@ -323,12 +323,90 @@
 //     }
 //     innerFn()
 // }
+// myFn
 
-// myFn()
+// let o = {}
+// console.log(!!o); //true
+
+// const button = {
+//     width: 200,
+//     text: "buy"
+// }
+
+// const redButton = {
+//     ...button,
+//     color: 'red',
+// }
+// console.log(redButton);
+
+// const buttonInfo = {
+//     text: 'buy'
+// }
+// const buttonStyle = {
+//     color: 'yellow',
+//     width: 200,
+//     height: 50,
+// }
+// const button = {
+//     ...buttonInfo,
+//     ...buttonStyle,
+// }
+// console.table(button);
 
 
+// //конкатенация строк
+// const a = 'hello' + 'world';
+// console.log(a);
+// const b = 'hello ' + 'world';
+// console.log(b);
+
+// const c = 'hello';
+// const d = 'world';
+// const greeting = c + " " + d;
+// console.log(greeting);
+// //шаблонные строки
+// const tsl = `${c} ${d}`;
+// console.log(tsl);
 
 
+//функциональные выражения (всегда анонимное)
 
+// function(a,b) {
+//         let c;
+//     a = a + 1;
+//     c = a + b;
+//     return c
+// }
 
+// function myFn(a,b) {
+//     let c;
+//     a = a + 1;
+//     c = a + b;
+//     return c
+// }
+
+// (a, b) => {
+//     let c;
+//     a = a + 1;
+//     c = a + b;
+//     return c
+// }
+
+// setTimeout(() => {
+//     console.log('отложенное сообщение')
+// }, 2000);
+
+//значение функции по умолчанию
+
+// function multByFactor(value, multiplier = 1) {
+//     return value * multiplier    
+// }
+// console.log(multByFactor(10, 2));//20
+// multByFactor(5)//5
+
+// const arrowFn = (value, multiplier =2) => {
+//     return value * multiplier
+// }
+// console.log(arrowFn(5,10));
+// console.log(arrowFn(5));
 
