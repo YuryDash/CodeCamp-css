@@ -410,3 +410,68 @@
 // console.log(arrowFn(5,10));
 // console.log(arrowFn(5));
 
+// const newPost = (post, addedAt = Date()) => ({
+//     ...post,
+//     addedAt,
+// });
+
+// const firstPost = {
+//     id: 1,
+//     name: 'Yury',
+//     age: 28,
+// }
+// console.table(newPost(firstPost));
+
+
+// // обработка оибок
+// const fnWithError = () => {
+//     throw new Error("Some error")
+// }
+
+// try {
+//     fnWithError()
+// } catch (error) {
+// console.error(error)
+// console.log(error.message)
+// }
+// console.log('Continue...');
+
+
+// инструкции
+// вырАжение возвращает значение
+// инструкция выполняет действие
+//============ инструкции==============
+// let a; // инструкци созд. переменной ;
+
+// const b = 5; // на отдельной строке
+
+// if (a < b){
+//     console.log('a is larger');// выполняет действ.
+// }
+
+// for (let i = 0; i < 5; i++) {// выполняется много раз инст
+//     console.log(i);
+// }
+// // блоки кода не требуют ; которые заканчиваются {}
+
+//====================================
+//Sum Arrays
+// function sum (numbers) {
+//     "use strict";
+// let result = 0;
+//   for(let i = 0; i < numbers.length; i++) {
+//     result += numbers[i];
+//   }
+//   return result;
+//   }
+//=====================================
+
+// // выражение-иструкция
+// 'abc'
+// a = a + 3;
+// c = a + b;
+// d = 'Good' + 'Evening';
+// myFn(c, d);
+// console.log('hi');
+
+ 
