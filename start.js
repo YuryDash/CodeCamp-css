@@ -522,12 +522,56 @@
 // }
 // console.log(sumPositiveNumbers(10, 10));
 
+// // цикл for in
+// let user = {
+//     name: 'Ivan',
+//     age: 10,
+//     city: 'Warsaw',
+//     car: 'VW golf',
+//     "like JS": true,
+// }
+// for (const key in user) {
+//     if (Object.hasOwnProperty.call(user, key)) {
+//         const element = user[key];
+//         console.log(key,element);
+//     }
+// }
+
+// // forEach для обьектов
+// const user = {
+//         name: 'Ivan',
+//         age: 10,
+//         city: 'Warsaw',
+//         car: 'VW golf',
+//         "like JS": true,
+//     }
+// console.log(Object.keys(user))//в массив
+
+// Object.keys(user).forEach((key) =>{
+//     console.log(key, user[key])
+// })
 
 
+// ========for of==================
+// const myStr = "Hello"
+// for(const letter of myStr) {
+//     if(letter === 'o'){
+//         continue
+//     }
+//     console.log(letter)
+// }
 
 
+// const myArr = [5, 10, 15, 20, 25]
 
+// for(const element of myArr) {
+//     console.log(element)
+// }
+// for of не для обьектов!!!!
 
+// ============МОДУЛИ=============
+
+// export\import
 
 
 
