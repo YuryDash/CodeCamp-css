@@ -573,6 +573,9 @@
 
 // export\import
 
+import myNames from "./moduleOne";
+myNames()
+
 
 
 
