@@ -474,4 +474,83 @@
 // myFn(c, d);
 // console.log('hi');
 
- 
+//================ масивы=======================
+// const myArray = [1, 2, 3]
+// console.log(myArray);
+
+// myArray.forEach((el) => console.log(el * 3));
+// // не меняет массив, но переберает его как цикл
+// console.log(myArray);
+// forEach возвращает undefined
+
+
+// const myAr = [1, 2, 3,]
+// console.log(myAr);
+
+// const newAr = myAr.map(el => el * 2);
+// //map возвращает новый массив
+// console.log(myAr);
+// console.log(newAr);
+
+// // деструктуризация в фунуциях
+// const userProfile = {
+//     name: 'Yury',
+//     comments: 0,
+//     country: 'Belarus',
+// }
+
+// const userInfo = ({ name, comments }) => {
+//     if(!comments){
+//         console.log(`User ${name} has no comments`);
+//     } else {
+//     console.log(`User ${name} has ${comments} coments`);
+//     }
+// }
+
+// userInfo(userProfile);
+
+
+//if в функциях 
+const sumPositiveNumbers = (a , b) => {
+    if(typeof a !== 'Number' || typeof b !== 'Number') {
+        return 'One of the arguments is not a number'
+    }
+    if(a <= 0 || b <= 0 ) {
+        return ' numbers are not positive'
+    }
+    return a + b 
+}
+console.log(sumPositiveNumbers(10, 10))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
