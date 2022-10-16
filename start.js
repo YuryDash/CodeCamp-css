@@ -577,15 +577,36 @@
 // const res1 = sum(10, 2)
 // console.log(res1);
 
+// // классы 
+//  class Comment {
+//     constructor(text) {
+//         this.text = text
+//         this.votesQty = 0
+//     }
+//     upvote() {
+//         this.votesQty +=1
+//     }
+//  }
+// const firstComment = new Comment('first comment')
+// console.log(firstComment)
+// console.log(firstComment instanceof Comment)
+// console.log(firstComment instanceof Object)
+
+// firstComment.upvote()
+// firstComment.upvote()
+// firstComment.upvote()
+// firstComment.upvote()
+// console.log(firstComment.votesQty);
 
 
-
-
-
-
-
-
-
+// class NumbersArray extends Array {
+//     sum() {
+//         return this.reduce((el, acc) => acc += el, 0)
+//     }
+// }
+// const myArray = new NumbersArray(2, 5, 7)
+// console.log(myArray);
+// console.log(myArray.sum())
 
 
 
