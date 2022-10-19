@@ -197,3 +197,20 @@
 // let extractStr = "Extract the word 'coding' from this string.";
 // let codingRegex = /coding/; // Change this line
 // let result = extractStr.match('coding'); // Change this line
+
+
+// //Sum of the first nth term of Series
+
+// function SeriesSum(n) {
+//     let result = 0;
+//     let reverage = 1;
+//     for (let i = 0; i < n; i += 1) {
+//       if (i === 0) {
+//         result = 1;
+//       } else {
+//         reverage += 3;
+//         result = result + (1 / reverage);
+//       }
+//     }
+//     return result.toFixed(2);
+//   };

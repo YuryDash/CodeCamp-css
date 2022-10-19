@@ -610,6 +610,21 @@
 
 
 
+// let arr = [
+//     {name: 'fedor', age: 16, city: 'Minsk'},
+//     {name: 'semen', age: 17, city: 'Minsk'},
+//     {name: 'gena', age: 18, city: 'Minsk'},
+//     {name: 'gosha', age: 19, city: 'Minsk'},
+//     {name: 'grisha', age: 16, city: 'Minsk'},
+//     {name: 'german', age: 18, city: 'Minsk'},
+// ]
+// let result = arr.filter((item) => item.age === 18);
+// console.log(result);
+// let resTwo = arr.find((item) => item.age === 18);
+// console.log(resTwo);
+// let resThree = arr.findIndex((item) => item.age === 18)
+// console.log(resThree);
+
 
 
 

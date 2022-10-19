@@ -103,3 +103,66 @@
 //     }
 //     return sum;
 //   }
+
+
+// //Ones and Zeros
+
+// const binary = (arr) => {
+//     return parseInt(arr.join(""), 2);
+// };
+
+// console.log(binary([1,1,1,1]));
+
+
+// //MakeUpperCase
+// makeUpperCase = (str) => str.toUpperCase()
+
+
+//Abbreviate a Two Word Name
+
+// function abbrevName(name){
+//     return name.split(" ").map(el => el[0].toUpperCase()).join(".")
+//  }
+// abbrevName('Yury Dash')
+// console.log(abbrevName('Norb Yong Ops'))
+
+
+// //Area or Perimeter
+
+// const areaOrPerimeter = function(l , w) {
+//     let p = 0;
+//       if (l !== w) return p + (l*2 + w*2);
+//     let a = 0;
+//       if (l === w) return l * w;
+//     };
+
+
+// //Counting Duplicates
+// function duplicateCount(text){
+//     let result = 0,
+//         soltingObject = {};
+//     text.toLowerCase().split('').map(str => {
+//         if (!soltingObject.hasOwnProperty(str)) {
+//           soltingObject[str] = 0;
+//         } else {
+//           if (soltingObject[str] === 0) {
+//             result += 1;
+//           }
+//           soltingObject[str] = soltingObject[str] + 1;
+//         }
+//     });
+//     return result;
+//   }
+
+
+// //Find the odd int
+
+// function findOdd(arr) {
+//     for(let i = 0; i < arr.length; i++){
+//       const count = arr.filter(value => value === arr[i]).length;
+//       if(count % 2 == 1){
+//         return arr[i];
+//       }
+//     }
+//     return -1;
+//   }
