@@ -626,11 +626,67 @@
 // console.log(resThree);
 
 
+// .splice()=============
+// let arr = ['Гоша', 'Гена', 'Гриша', 'Кеша'];
+// console.log(arr);
+
+// let name = arr.splice(1,1)
+// console.log(arr);
+// console.log(name);
+// // удалить и присвоить
+
+// arr.splice(0,0,'Оля', 'Szczepan');
+// console.log(arr);
+// //добавление
 
 
+// let arr = ['Гоша', 'Гена', 'Гриша', 'Кеша'];
+// let res = arr.slice(1,3);
+// console.log(res);
+// console.log(arr);
+// //Создает новый массив в котор. копирует часть или весь массив
+// let resTwo = arr.slice();
+// console.log(resTwo);
+// //скопирует всё
+
+// let resThree = arr.concat('Mariusz', 'Mateusz')
+// console.log(resThree);
+// //копирует и добавляет новые el
 
 
+// let arr = ['Гоша', 'Гена', 'Гриша', 'Кеша'];
+// //выводит позицию
+// console.log(arr.indexOf('кеша'))
+// console.log(arr.indexOf('Кеша'))
+// //выводит true/false
+// console.log(arr.includes('кеша'))
+// console.log(arr.includes('Кеша'))
 
+//===============.sort((a,b)=> a-b);===============
+
+// let arr = [ 'Вася',
+//             'Ян',
+//             'Андрей',
+//             'Карл',
+//             'Семен',
+//             'Надежда',
+//             'Игорь'
+//         ];
+// // сортирует по алфавиту
+// arr.sort();
+// console.log(arr);
+
+// let arr = [1, 4, 6, 22, 15, 0];
+// console.log(Array.isArray(arr));
+// console.log(arr.sort((a, b) => a - b));
+
+// let str = 'ПриветКакДела ?';
+// let arr = str.split('').reverse()
+// console.log(arr);
+
+
+// let arr = ['Wojtek', 'Janek', 'Kamil', 'Adam', 'Andrzej'];
+// arr.forEach((item, index) => console.log(`Имя ${item} находится на позиции ${index}`));  
 
 
 
